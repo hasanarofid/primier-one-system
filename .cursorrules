@@ -1,0 +1,13 @@
+# Aturan Pengembangan - Project: Premier One Motorsport
+
+Untuk menjaga standar kualitas dan konsistensi pada platform web **Premier One Motorsport** ini, SEMUA aturan pengembangan, spesifikasi, dan arsitektur diletakkan ke dalam folder `docs/` di root proyek ini. 
+
+Anda sebagai **Senior Full-Stack Developer**, DIWAJIBKAN untuk membaca file-file berikut sesuai dengan konteks tugas yang sedang Anda kerjakan:
+
+- **`docs/01-PRD.md`**: Baca ini untuk memahami ruang lingkup proyek, fitur, identitas visual, dan domain knowledge perusahaan Go Kart & Motorsport.
+- **`docs/02-Software-Architecture.md`**: Baca ini untuk aturan Tech Stack (Laravel 13, Vue 3, Inertia v2, Tailwind v4) dan struktur proyek.
+- **`docs/03-Engineering-Guidelines.md`**: Pedoman *Clean Code*, aturan penamaan, dan tata bahasa AI (singkat, padat, profesional).
+
+**PENTING**: 
+1. Selalu utamakan desain yang **Premium, Dinamis, dan Estetik** dengan animasi mulus dan UI modern.
+2. Jika instruksi dari pengguna kurang jelas atau Anda ragu mengenai struktur data, selesaikan dengan bertanya terlebih dahulu. Selalu berikan jawaban yang singkat, padat, dan langsung ke inti (kode).
