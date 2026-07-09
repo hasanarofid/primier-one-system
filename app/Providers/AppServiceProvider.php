@@ -21,5 +21,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Vite::prefetch(concurrency: 3);
+        
+        // Force HTTPS for ngrok to fix Mixed Content errors
+        if (request()->server('HTTP_X_FORWARDED_PROTO') === 'https' || env('APP_ENV') === 'production' || str_contains(env('APP_URL', ''), 'https://')) {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
     }
 }
